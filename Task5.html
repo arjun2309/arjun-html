@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .form{
+            border: 2px solid black ;
+            height: 200px;
+            width: 300px;
+            text-align: center;
+            margin-left: 35%;
+            margin-top: 5%;
+        }
+        .form1{
+            border: 2px solid black ;
+            height: 200px;
+            width: 300px;
+            margin-left: 35%;
+            margin-top: 5%;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="form">
+        <form action="#">
+            <h3 style="text-align: center;">Login</h3>
+             <input type="text" placeholder="Username"><br><br>
+             <input type="text" placeholder="Password"><br><br>
+             <button style="background-color: green; color: white;">Submit</button>
+        </form>
+    </div>
+    <div class="form1">
+        <form action="#">
+           <label>Gender:</label>
+           <input type="radio" name="radio">
+           <label >Male</label>
+           <input type="radio" name="radio">
+           <label >Female</label>
+           <input type="radio" name="radio">
+           <label >Others</label><br><br>
+           <label>Course:</label>
+           <input type="checkbox">
+           <label >Java Full Stack</label><br>
+           <input type="checkbox">
+           <label >Python Full Stack</label><br>
+           <input type="checkbox">
+           <label >Testing</label><br>
+           <label>Choose your Role:</label>
+           <select id="role" multiple>
+               <option value="Select">-Select-</option>
+               <option value="Developer">Developer</option>
+               <option value="Tester">Tester</option>
+               <option value="Analyst">Analyst</option>
+               <option value="HR">HR</option>
+           </select><br><br>
+        </form>
+
+    </div>
+</body>
+</html>

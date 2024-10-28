@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+</head>
+<body>
+    <!-- label-to get the data from the user -->
+    <h1>Text input fields:form</h1>
+<!-- form -It sends the user data to the backend -->
+ 
+  <form >
+     <label >First Name:</label>
+     <input type="text" placeholder="Enter your First name"><br>
+     <label> Last Name:</label>
+     <input type="text" placeholder="Enter your Last name"><br>
+    
+     <!-- placeholder -->
+     <label >Email Id:</label>
+     <input type="text" placeholder="Enter your mail id"><br>
+
+     <!-- radio button  -->
+     <h4>Batch</h4>
+     <input type="radio" name="radio">
+     <label >2021</label><br>
+     <input type="radio" name="radio">
+     <label >2022</label><br>
+     <input type="radio" name="radio">
+     <label >2023</label><br>
+
+      
+     <!-- checkbox -->
+     <h4>Skills</h4>
+     <input type="checkbox">
+     <label >HTML</label><br>
+     <input type="checkbox" >
+     <label >CSS</label><br>
+     <input type="checkbox">
+     <label >Javascript</label><br><br>
+
+     <!-- button can be created by button tag and also input tag  -->
+     <input type="button" value="done">
+     <button>Submit</button>
+    </form><br>
+
+     <!-- Action with submit ,if i give # it stays in same page if i give url in action field it moves to the url page -->
+    <form action="#">
+        <label >First name:</label>
+        <input type="text" value="Arjun"><br>
+        <label >Last name:</label>
+        <input type="text" value="Kumar"><br>
+        <input type="submit" style=" background-color:aquamarine"><br>
+       </form>
+
+        <!-- dropdown -->
+    <form action="#">
+        <label>Choose your Role</label>
+        <select id="role">
+            <option value="Select">-Select-</option>
+            <option value="Developer">Developer</option>
+            <option value="Tester">Tester</option>
+            <option value="Analyst">Analyst</option>
+            <option value="HR">HR</option>
+        </select><br><br>
+     </form>
+     
+      <!-- multiple dropdown ctrl+ click-->
+      <form>
+        <label>Choose your Role</label>
+        <select id="role" multiple>
+            <option value="Select">-Select-</option>
+            <option value="Developer">Developer</option>
+            <option value="Tester">Tester</option>
+            <option value="Analyst">Analyst</option>
+            <option value="HR">HR</option>
+        </select><br><br>
+    </form>
+    
+    <!-- textarea  -->
+    <form>
+        <label>Feedback:</label>
+        <textarea name="Feedback" cols="30" rows="10">
+        </textarea>
+    </form>
+
+    <!-- date -->
+    <form>
+        <label>Birthday:</label>
+        <input type="date" name="Birthday">
+    </form>
+    
+    <!-- Email -->
+   <form >
+    <label >Enter your Email:</label>
+    <input type="email" name="email" placeholder="Enter your mail id"><br>
+
+    <!-- file  -->
+    <label >Select a file:</label>
+    <input type="file" name="myfile" >
+   </form>
+</body>
+</html>

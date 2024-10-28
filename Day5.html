@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       table,td,th{
+        border: black,2px,solid;
+        border-collapse: collapse;
+        height: 50px;
+       }
+
+       #tr2{
+           background-color:rgb(76, 156, 156);
+       }
+       table{
+        width: 100%;
+       }
+    </style>
+    
+</head>
+<body>
+    <!-- table -->
+    <table>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>City</th>
+        </tr>
+        <tr id="tr">
+            <td>1</td>
+            <td>Arjun</td>
+            <td>Avadi</td>
+        </tr>
+        <tr id="tr2">
+            <td>2</td>
+            <td>Arun</td>
+            <td>Ambattur</td>
+        </tr>
+        <tr id="tr3">
+            <td>3</td>
+            <td>Harish</td>
+            <td>T.Nagar</td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <th>Id</th>
+            <td>1</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <th>Name</th>
+            <td>Arjun</td>
+            <td>Harish</td>
+        </tr>
+        <tr>
+            <th colspan="2">City</th>
+            <td>Annanur</td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <th>Id</th>
+            <th>Name</td>
+            <th>City</td>
+        </tr>
+         <tr>
+            <td rowspan="2">1</td>
+            <td>Arjun</td>
+            <td>avadi</td>
+         </tr>
+         <tr>
+            <td>harish</td>
+            <td>annanur</td>
+         </tr>
+    </table>
+</body>
+</html>

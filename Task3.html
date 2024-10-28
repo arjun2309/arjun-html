@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,th,td{
+            border: 2px solid;
+            border-collapse: collapse;
+
+        }
+        table{
+            margin-left: 40%;
+            margin-top: 5%;
+           width: 30%;
+          
+        }
+        td{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Id</th>
+            <th>Role</th>
+            <th>Salary</th>
+            <th>Internship</th>
+        </tr>
+        <tr >
+            <td>1</td>
+            <td rowspan="2">Devloper</td>
+            <td>250000</td>
+            <td>50000</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>50000</td>
+            <td>10000</td>
+        </tr>
+        <tr>
+            <td rowspan="2">3</td>
+            <td>Tester</td>
+             <td rowspan="2" colspan="2">10000</td>
+        </tr>
+        <tr>
+            <td>Developer</td>
+        </tr>
+    </table>
+</body>
+</html>
